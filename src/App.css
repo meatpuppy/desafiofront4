@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =================================================================================================================================== */
+
+.body {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  background-color:  #263238;
+  min-height: 100vh;
+}
+
+.subBody {
+  display: flex;
+  justify-content: center;
+  background-color: #ececec;
+
+}
+
+/* ================================================================================================================================ */
+
+.loginCont {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginSubCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 405px;
+  height: 507px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: white;
+}
+
+.emailSenha{
+  font-weight: bold;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-left: 4.3em;
+}
+
+.inputLogin > input {
+  font-size: 14px;
+  border: 0px;
+  border-bottom: black solid 1px;
+  width: 261px;
+}
+
+.esqueci{
+  font-size: 12px;
+  border-bottom: black solid 1px;
+}
+
+.botaoLogin > button{
+  width: 166px;
+  height: 39px;
+  background: rgba(218, 1, 117, 0.35);
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+}
+
+/* ================================================================================================================================ */
+
+.cadastroCont {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cadastroSubCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 405px;
+  height: 507px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: white;
+}
+
+/* ================================================================================================================================ */
+
+.menuColumn {
+  position: sticky;
+  background-color: #263238;
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  width: 264px;
+  max-height: 599px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.titulo {
+  padding: 32px 0px 0px 48px;
+}
+
+.menuBotoes {
+  color: white;
+  background-color: #263238;
+  width: 264px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 58px;
+}
+
+.botao > a{
+  color: white;
+  width: 264px;
+  height: 47px;
+  margin-left: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.botao > a > div {
+  margin-left: 20px;
+}
+
+.botaoSelec {
+  background-color: tomato;
+  color: white;
+  width: 264px;
+  height: 47px;
+  margin-left: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menuColumn > button {
+  background-color: #da0175;
+  width: 226px;
+  height: 39px;
+  border: 0px;
+  border-radius: 2em;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+/* ================================================================================================================================ */
+
+.header {
+  width: 1104px;
+  height: 228px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.saldo {
+  background-color: #374952;
+  width: 198px;
+  height: 92px;
+  border-radius: 0.5em;
+  color: white;
+  align-self: center;
+  margin-left: 72px;
+}
+
+.iconSaldo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.textoSaldo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.saldoValor {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 55px;
+}
+
+.saldoValor > div {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.iconUser{
+  margin-top: 32px;
+  margin-right: 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.deslogar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100px;
+  height: 56px;
+}
+
+/* ================================================================================================================================ */
+
+.contFiltro {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-bottom: 1px solid #263238;
+  margin-top: 64px;
+  margin-bottom: 57px;
+  margin-left: 72px;
+  width: 860px;
+}
+
+.filtro {
+  font-size: 16px;
+  color: #667E87;
+  padding-right: 56px;
+  padding-bottom: 16px;
+  
+}
+
+.filtroSelec {
+  font-size: 16px;
+  color: #263238;
+  padding-right: 56px;
+  padding-bottom: 16px;
+  border-bottom: 4px solid #263238;
+}
+
+/* ================================================================================================================================ */
+
+.contPlacas{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 32px;
+}
+
+.subContPlacas {
+  display: flex;
+  justify-content: center;
+
+}
+
+.placa {
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+  width: 410px;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.headerPlaca {
+  width: 410px;
+  height: 80px;
+  background-color: #374952;
+  border-radius: 16px 16px 0px 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.contHeaderPlaca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contPlacaInterna {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.placaInternaVerde{
+  width: 266px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #4EC06E;
+  border: 2px solid #4EC06E;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.placaInternaVermelha{
+  width: 266px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #FF4D4D;
+  border: 2px solid #FF4D4D;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.placaInternaAzul{
+  width: 266px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #5197B5;
+  border: 2px solid #5197B5;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.emDia {
+  font-size: 14px;
+}
+
+.emDiaNumero {
+  font-size: 36px;
+}
+
+/* ================================================================================================================================ */
+
+.gridCont{
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  display: grid;
+  width: 960px;
+  height: 32px;
+  background-color: hsl(193, 24%, 69%);
+  border-radius: 8px;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr 0.5fr;
+}
+
+.gridCont > div{
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.headerCobra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.itemCobra{
+  font-size: 14px;
+  color: black;
+  display: grid;
+  width: 960px;
+  height: 48px;
+  background-color:white;
+  border-radius: 8px;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  margin-bottom: 16px;
+}
+
+.itemCobra > div{
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.bodyCobra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-direction: column;
+
+}
+
+/* ================================================================================================================================ */
+
+.criarCobraCont {
+  width: 958px;
+  height: 508px;
+  margin-top: 88px;
+  margin-left: 72px;
+  margin-right: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.tituloCriarCobra {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.formularioCriarCobra {
+  width: 958px;
+  height: 508px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.tituloFormCriarCobra {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.descriçãoFormCriarCobra {
+  font-size: 12px;
+  color: #868686;
+}
+
+.inputSelect {
+  margin-bottom: 32px;
+}
+
+.inputSelect > select {
+  width: 512px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+  margin-top: 8px;
+  
+}
+
+.inputSelect > input {
+  width: 512px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+  margin-top: 8px;
+  
+}
+
+.inputDescri {
+  margin-bottom: 32px;
+}
+
+.inputDescri > input {
+  width: 512px;
+  height: 56px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.valorEVencimento {
+  display: flex;
+  flex-direction: row;
+}
+
+.formValor > input{
+  width: 184px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+.formData > input{
+  width: 312px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.botoesCriarCobra {
+  width: 512px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botaoCancelar >button {
+  width: 200px;
+  height: 39px;
+  border: 2px solid #DA0175;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #DA0175;
+  font-family: Montserrat;
+
+}
+
+.botaoCriar >button {
+  width: 226px;
+  height: 39px;
+  border: 0px;
+  background-color: rgba(218, 1, 117, 0.35);;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  font-family: Montserrat;
+  margin-left: 16px;
+
+}
+
+/* ================================================================================================================================ */
+
+.contClienteInter {
+  width: 958px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerCliente {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.gridContCliente {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  display: grid;
+  width: 960px;
+  height: 32px;
+  background-color: hsl(193, 24%, 69%);
+  border-radius: 8px;
+  grid-template-columns: 24px 275px 0.4fr 0.3fr 0.3fr 0.1fr;
+}
+
+.criarClienteBotao > button {
+  width: 250px;
+  height: 39px;
+  border: 2px solid #DA0175;
+  background-color: transparent;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #DA0175;
+  font-family: Montserrat;
+}
+
+.buscarClienteBotao {
+  display: flex;
+  align-items: center;
+  width: 432px;
+  height: 40px;
+  
+}
+
+.buscarClienteBotao > input {
+  width: 308px;
+  height: 40px;
+  border: 1px solid #374952;
+  border-radius: 8px;
+  
+}
+
+.buscarClienteBotao > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  height: 40px;
+  background-color: #374952;
+  border-radius: 8px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+  
+}
+
+.containerPlacaCliente{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.placaCliente {
+  display: grid;
+  align-items: center;
+  grid-template-columns:24px 275px 0.4fr 0.3fr 0.3fr 0.1fr;
+  background-color: white;
+  width: 958px;
+  height: 131px;
+  border-radius: 8px;
+  margin-top: 22px;
+  font-size: 14px;
+  color: 4C4C4C;
+
+}
+
+.placaCliente > div > .nome {
+  font-weight: 600;
+  margin-bottom: 16px;
+
+}
+
+.placaCliente > div > .email {
+  margin-bottom: 16px;
+
+}
+
+.placaCliente > div > .email > img {
+  margin-right: 9px;
+
+}
+
+.placaCliente > div > .tele > img{
+  margin-right: 9px;
+}
+
+.cobrancasCliente {
+  display: flex;
+}
+
+.cobrancasCliente > div {
+  margin-right: 5px;
+}
+
+.inadimplente {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FF4D4D;
+}
+
+.emdia{
+  font-weight: 600;
+  font-size: 16px;
+  color: #4EC06E;
+}
